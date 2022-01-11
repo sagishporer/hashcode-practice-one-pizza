@@ -19,7 +19,7 @@
 - When calculating the score with the new ingredients - perform a delta calculation which is faster.
 
 ## Scores 
-The algorithm takes less than 10 minutes to run 1M iterations on all input files (combined). No improvement found beyond 1M iterations.
+The algorithm takes less than 10 minutes to run when the stop condition is: no improvment found in the last 1M iterations.
 
 | Input | Score |
 | --- | --- |
