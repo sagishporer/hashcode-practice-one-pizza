@@ -45,7 +45,7 @@ namespace HashCode2022_OnePizze
 
         static Solution OptimizeSolution(Problem p, Solution solution)
         {
-            Random random = new Random((int)DateTime.Now.Ticks);
+            Random random = new Random(17);
             SolutionResults solutionResults = p.GetSolutionClients(solution);
             List<int> unsedClients = new List<int>(solutionResults.UnusedClients);
             int score = solutionResults.GoodClients.Count;
