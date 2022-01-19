@@ -30,5 +30,5 @@ Tested the algorithm in 2 modes:
 | B - Basic | 5 | = |
 | C - Coarse | 5 | = |
 | D - Difficult | 1,805 | = |
-| E - Elaborate | 2,078 | 2,082 |
-| Total | 3,895 | 3,899 |
+| E - Elaborate | 2,078 | 2,083 |
+| Total | 3,895 | 3,900 |
